@@ -1,0 +1,319 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "snowfox-hw-business-card"
+Date "2020-05-06"
+Rev "dev_0.1"
+Comp "generationmake"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L devices:Led_Small D1
+U 1 1 5E3D12A3
+P 10350 5900
+F 0 "D1" H 10350 5695 50  0000 C CNN
+F 1 "150060YS75000" H 10350 5786 50  0000 C CNN
+F 2 "LEDs:LED_0603" V 10350 5900 50  0001 C CNN
+F 3 "" V 10350 5900 50  0000 C CNN
+	1    10350 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:R_0603 R1
+U 1 1 5E3D12AD
+P 9850 5900
+F 0 "R1" V 9800 5700 50  0000 C CNN
+F 1 "3k3" V 9900 6050 50  0000 C CNN
+F 2 "resistors:R_0603" H 9850 5750 50  0001 C CNN
+F 3 "" H 9850 5900 50  0000 C CNN
+	1    9850 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power-supply:GND #PWR07
+U 1 1 5E3D12B7
+P 10650 5950
+F 0 "#PWR07" H 10650 5700 50  0001 C CNN
+F 1 "GND" H 10655 5777 50  0000 C CNN
+F 2 "" H 10650 5950 50  0000 C CNN
+F 3 "" H 10650 5950 50  0000 C CNN
+	1    10650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5900 10250 5900
+Wire Wire Line
+	10450 5900 10650 5900
+Wire Wire Line
+	10650 5900 10650 5950
+$Comp
+L power-supply:+3V3 #PWR06
+U 1 1 5E3E348F
+P 9550 5900
+F 0 "#PWR06" H 9550 5750 50  0001 C CNN
+F 1 "+3V3" H 9565 6073 50  0000 C CNN
+F 2 "" H 9550 5900 50  0000 C CNN
+F 3 "" H 9550 5900 50  0000 C CNN
+	1    9550 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 5900 9550 5900
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH3
+U 1 1 5E401602
+P 1000 7600
+F 0 "MECH3" H 1128 7646 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 1128 7555 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 900 7650 50  0001 C CNN
+F 3 "" H 1000 7600 50  0001 C CNN
+	1    1000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH4
+U 1 1 5E401D77
+P 2000 7600
+F 0 "MECH4" H 2128 7646 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 2128 7555 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 1900 7650 50  0001 C CNN
+F 3 "" H 2000 7600 50  0001 C CNN
+	1    2000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MECH_mounting-holes:MHP_3.2_5.8 MECH5
+U 1 1 5E402150
+P 3000 7600
+F 0 "MECH5" H 3128 7646 50  0000 L CNN
+F 1 "MHP_3.2_5.8" H 3128 7555 50  0000 L CNN
+F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 2900 7650 50  0001 C CNN
+F 3 "" H 3000 7600 50  0001 C CNN
+	1    3000 7600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2700 7600
+NoConn ~ 1700 7600
+NoConn ~ 700  7600
+Text Notes 700  7400 0    50   ~ 0
+mounting holes
+$Comp
+L mechanical-connectors:CONN_01X18 CN2
+U 1 1 5E5C45C4
+P 3650 5750
+F 0 "CN2" H 3728 5791 50  0000 L CNN
+F 1 "CONN_01X18" H 3728 5700 50  0000 L CNN
+F 2 "pin_headers:Pin_Header_Straight_1x18" H 3650 5750 50  0001 C CNN
+F 3 "" H 3650 5750 50  0000 C CNN
+	1    3650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR0105
+U 1 1 5E5C601E
+P 3350 6700
+F 0 "#PWR0105" H 3350 6450 50  0001 C CNN
+F 1 "GND" H 3355 6527 50  0000 C CNN
+F 2 "" H 3350 6700 50  0000 C CNN
+F 3 "" H 3350 6700 50  0000 C CNN
+	1    3350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR0106
+U 1 1 5E5C7355
+P 3300 4800
+F 0 "#PWR0106" H 3300 4650 50  0001 C CNN
+F 1 "+3V3" H 3315 4973 50  0000 C CNN
+F 2 "" H 3300 4800 50  0000 C CNN
+F 3 "" H 3300 4800 50  0000 C CNN
+	1    3300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4900 3300 4900
+Wire Wire Line
+	3300 4900 3300 4800
+Wire Wire Line
+	3450 6600 3350 6600
+Wire Wire Line
+	3350 6600 3350 6700
+Wire Wire Line
+	2550 6500 3450 6500
+Wire Wire Line
+	2550 6400 3450 6400
+Wire Wire Line
+	2550 6300 3450 6300
+Wire Wire Line
+	2550 6200 3450 6200
+Wire Wire Line
+	2550 6100 3450 6100
+Wire Wire Line
+	2550 6000 3450 6000
+Wire Wire Line
+	2550 5900 3450 5900
+Wire Wire Line
+	2550 5800 3450 5800
+Wire Wire Line
+	2550 5700 3450 5700
+Wire Wire Line
+	2550 5600 3450 5600
+Wire Wire Line
+	2550 5500 3450 5500
+Wire Wire Line
+	2550 5400 3450 5400
+Wire Wire Line
+	2550 5300 3450 5300
+Wire Wire Line
+	2550 5200 3450 5200
+Wire Wire Line
+	2550 5100 3450 5100
+Wire Wire Line
+	2550 5000 3450 5000
+$Comp
+L mechanical-connectors:CONN_01X18 CN3
+U 1 1 5E6060EC
+P 5650 5750
+F 0 "CN3" H 5728 5791 50  0000 L CNN
+F 1 "CONN_01X18" H 5728 5700 50  0000 L CNN
+F 2 "pin_headers:Pin_Header_Straight_1x18" H 5650 5750 50  0001 C CNN
+F 3 "" H 5650 5750 50  0000 C CNN
+	1    5650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR0107
+U 1 1 5E6060F6
+P 5350 6700
+F 0 "#PWR0107" H 5350 6450 50  0001 C CNN
+F 1 "GND" H 5355 6527 50  0000 C CNN
+F 2 "" H 5350 6700 50  0000 C CNN
+F 3 "" H 5350 6700 50  0000 C CNN
+	1    5350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR0108
+U 1 1 5E606100
+P 5300 4800
+F 0 "#PWR0108" H 5300 4650 50  0001 C CNN
+F 1 "+3V3" H 5315 4973 50  0000 C CNN
+F 2 "" H 5300 4800 50  0000 C CNN
+F 3 "" H 5300 4800 50  0000 C CNN
+	1    5300 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4900 5300 4900
+Wire Wire Line
+	5300 4900 5300 4800
+Wire Wire Line
+	5450 6600 5350 6600
+Wire Wire Line
+	5350 6600 5350 6700
+Wire Wire Line
+	4550 6400 5450 6400
+Wire Wire Line
+	4550 6300 5450 6300
+Wire Wire Line
+	4550 6200 5450 6200
+Wire Wire Line
+	4550 6100 5450 6100
+Wire Wire Line
+	4550 6000 5450 6000
+Wire Wire Line
+	4550 5900 5450 5900
+Wire Wire Line
+	4550 5800 5450 5800
+Wire Wire Line
+	4550 5700 5450 5700
+Wire Wire Line
+	4550 5600 5450 5600
+Wire Wire Line
+	4550 5500 5450 5500
+Wire Wire Line
+	4550 5400 5450 5400
+Wire Wire Line
+	4550 5300 5450 5300
+Wire Wire Line
+	4550 5200 5450 5200
+Wire Wire Line
+	4550 5100 5450 5100
+Wire Wire Line
+	4550 5000 5450 5000
+Text Label 4650 5300 0    50   ~ 0
+PEX_PIN47
+Text Label 4650 5000 0    50   ~ 0
+PEX_PIN51
+Text Label 4650 5800 0    50   ~ 0
+PEX_PIN33
+Text Label 4650 6000 0    50   ~ 0
+PEX_PIN31
+Text Label 4650 6400 0    50   ~ 0
+PEX_PIN23
+Text Label 4650 5100 0    50   ~ 0
+PEX_PIN49
+Text Label 2650 5900 0    50   ~ 0
+PEX_PIN13
+Text Label 4650 6300 0    50   ~ 0
+PEX_PIN25
+Text Label 2650 5000 0    50   ~ 0
+PEX_PIN1
+Text Label 2650 5100 0    50   ~ 0
+PEX_PIN3
+Text Label 2650 5200 0    50   ~ 0
+PEX_PIN5
+Text Label 2650 5700 0    50   ~ 0
+PEX_PIN11
+Text Label 2650 5400 0    50   ~ 0
+PEX_PIN7
+Text Label 2650 6200 0    50   ~ 0
+WM_PIO24
+Text Label 2650 6300 0    50   ~ 0
+WM_PIO25
+Text Label 4650 5500 0    50   ~ 0
+PEX_PIN45
+Text Label 2650 6400 0    50   ~ 0
+PEX_PIN20
+Text Label 2650 6000 0    50   ~ 0
+PEX_PIN14
+Text Label 4650 5200 0    50   ~ 0
+PEX_PIN48
+Text Label 4650 5600 0    50   ~ 0
+PEX_PIN44
+Text Label 4650 6200 0    50   ~ 0
+PEX_PIN28
+Text Label 2650 6100 0    50   ~ 0
+PEX_PIN16
+Text Label 4650 5400 0    50   ~ 0
+PEX_PIN46
+Text Label 4650 5700 0    50   ~ 0
+PEX_PIN42
+Text Label 2650 6500 0    50   ~ 0
+PEX_RST
+Text Label 4650 6100 0    50   ~ 0
+PEX_PIN30
+Text Label 4650 5900 0    50   ~ 0
+PEX_PIN32
+Text Label 2650 5500 0    50   ~ 0
+PEX_PIN8
+Text Label 2650 5600 0    50   ~ 0
+PEX_PIN10
+Text Label 2650 5800 0    50   ~ 0
+PEX_PIN12
+Text Label 2650 5300 0    50   ~ 0
+PEX_PIN6
+Wire Wire Line
+	5450 6500 5350 6500
+Wire Wire Line
+	5350 6500 5350 6600
+Connection ~ 5350 6600
+Text Notes 500  650  0    43   ~ 0
+Copyright generationmake 2020\nsee full project documentation at https://github.com/...
+$EndSCHEMATC
