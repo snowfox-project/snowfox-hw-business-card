@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 6
 Title "snowfox-hw-business-card"
-Date "2020-05-06"
+Date "2020-05-07"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -16,55 +16,55 @@ $EndDescr
 $Comp
 L devices:Led_Small D1
 U 1 1 5E3D12A3
-P 10350 5900
-F 0 "D1" H 10350 5695 50  0000 C CNN
-F 1 "150060YS75000" H 10350 5786 50  0000 C CNN
-F 2 "LEDs:LED_0603" V 10350 5900 50  0001 C CNN
-F 3 "" V 10350 5900 50  0000 C CNN
-	1    10350 5900
+P 8650 5900
+F 0 "D1" H 8650 5695 50  0000 C CNN
+F 1 "150060YS75000" H 8650 5786 50  0000 C CNN
+F 2 "LEDs:LED_0603" V 8650 5900 50  0001 C CNN
+F 3 "" V 8650 5900 50  0000 C CNN
+	1    8650 5900
 	-1   0    0    1   
 $EndComp
 $Comp
 L devices:R_0603 R1
 U 1 1 5E3D12AD
-P 9850 5900
-F 0 "R1" V 9800 5700 50  0000 C CNN
-F 1 "3k3" V 9900 6050 50  0000 C CNN
-F 2 "resistors:R_0603" H 9850 5750 50  0001 C CNN
-F 3 "" H 9850 5900 50  0000 C CNN
-	1    9850 5900
+P 8150 5900
+F 0 "R1" V 8100 5700 50  0000 C CNN
+F 1 "3k3" V 8200 6050 50  0000 C CNN
+F 2 "resistors:R_0603" H 8150 5750 50  0001 C CNN
+F 3 "" H 8150 5900 50  0000 C CNN
+	1    8150 5900
 	0    1    1    0   
 $EndComp
 $Comp
 L power-supply:GND #PWR07
 U 1 1 5E3D12B7
-P 10650 5950
-F 0 "#PWR07" H 10650 5700 50  0001 C CNN
-F 1 "GND" H 10655 5777 50  0000 C CNN
-F 2 "" H 10650 5950 50  0000 C CNN
-F 3 "" H 10650 5950 50  0000 C CNN
-	1    10650 5950
+P 8950 5950
+F 0 "#PWR07" H 8950 5700 50  0001 C CNN
+F 1 "GND" H 8955 5777 50  0000 C CNN
+F 2 "" H 8950 5950 50  0000 C CNN
+F 3 "" H 8950 5950 50  0000 C CNN
+	1    8950 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 5900 10250 5900
+	8250 5900 8550 5900
 Wire Wire Line
-	10450 5900 10650 5900
+	8750 5900 8950 5900
 Wire Wire Line
-	10650 5900 10650 5950
+	8950 5900 8950 5950
 $Comp
 L power-supply:+3V3 #PWR06
 U 1 1 5E3E348F
-P 9550 5900
-F 0 "#PWR06" H 9550 5750 50  0001 C CNN
-F 1 "+3V3" H 9565 6073 50  0000 C CNN
-F 2 "" H 9550 5900 50  0000 C CNN
-F 3 "" H 9550 5900 50  0000 C CNN
-	1    9550 5900
+P 7850 5900
+F 0 "#PWR06" H 7850 5750 50  0001 C CNN
+F 1 "+3V3" H 7865 6073 50  0000 C CNN
+F 2 "" H 7850 5900 50  0000 C CNN
+F 3 "" H 7850 5900 50  0000 C CNN
+	1    7850 5900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9750 5900 9550 5900
+	8050 5900 7850 5900
 $Comp
 L MECH_mounting-holes:MHP_3.2_5.8 MECH3
 U 1 1 5E401602
@@ -316,4 +316,34 @@ Wire Wire Line
 Connection ~ 5350 6600
 Text Notes 500  650  0    43   ~ 0
 Copyright generationmake 2020\nsee full project documentation at https://github.com/...
+$Sheet
+S 9500 1500 1000 500 
+U 5EB3587A
+F0 "Microcontroller" 43
+F1 "microcontroller.sch" 43
+$EndSheet
+$Sheet
+S 9500 2500 1000 500 
+U 5EB358E3
+F0 "Display" 43
+F1 "display.sch" 43
+$EndSheet
+$Sheet
+S 9500 3500 1000 500 
+U 5EB35E34
+F0 "USB" 43
+F1 "usb.sch" 43
+$EndSheet
+$Sheet
+S 9500 4500 1000 500 
+U 5EB35F1D
+F0 "Power" 43
+F1 "power.sch" 43
+$EndSheet
+$Sheet
+S 9500 5500 1000 500 
+U 5EB369DF
+F0 "History" 43
+F1 "history.sch" 43
+$EndSheet
 $EndSCHEMATC
