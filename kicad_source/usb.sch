@@ -669,4 +669,6 @@ Text GLabel 10550 3200 2    60   Output ~ 0
 RESET
 Text GLabel 10550 4050 2    60   Output ~ 0
 BOOT
+NoConn ~ 5000 2150
+NoConn ~ 5000 2250
 $EndSCHEMATC
