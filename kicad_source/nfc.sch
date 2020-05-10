@@ -1,0 +1,167 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "NFC eeprom"
+Date "2020-05-10"
+Rev "dev_0.1"
+Comp "generationmake"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IC_interface_i2c:M24LR U7
+U 1 1 5EB7BB72
+P 4850 3000
+F 0 "U7" H 4850 3510 43  0000 C CNN
+F 1 "M24LR" H 4850 3429 43  0000 C CNN
+F 2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4850 3000 43  0001 C CNN
+F 3 "" H 4850 3000 43  0001 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5200 2800
+$Comp
+L power-supply:GND #PWR082
+U 1 1 5EB7BFC4
+P 5250 3350
+F 0 "#PWR082" H 5250 3100 50  0001 C CNN
+F 1 "GND" H 5255 3177 50  0000 C CNN
+F 2 "" H 5250 3350 50  0000 C CNN
+F 3 "" H 5250 3350 50  0000 C CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:+3V3 #PWR083
+U 1 1 5EB7C332
+P 5700 2500
+F 0 "#PWR083" H 5700 2350 50  0001 C CNN
+F 1 "+3V3" H 5715 2673 50  0000 C CNN
+F 2 "" H 5700 2500 50  0000 C CNN
+F 3 "" H 5700 2500 50  0000 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C39
+U 1 1 5EB7C601
+P 4000 3250
+F 0 "C39" H 4092 3296 50  0000 L CNN
+F 1 "DNI" H 4092 3205 50  0000 L CNN
+F 2 "capacitors:C_0603" H 4000 3100 50  0001 C CNN
+F 3 "" H 4000 3250 50  0000 C CNN
+	1    4000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:R_0603 R28
+U 1 1 5EB7CADF
+P 5350 2950
+F 0 "R28" H 5409 2996 50  0000 L CNN
+F 1 "10k" H 5409 2905 50  0000 L CNN
+F 2 "resistors:R_0603" H 5350 2800 50  0001 C CNN
+F 3 "" H 5350 2950 50  0000 C CNN
+	1    5350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C40
+U 1 1 5EB7CDB6
+P 5700 2700
+F 0 "C40" H 5792 2746 50  0000 L CNN
+F 1 "100nF" H 5792 2655 50  0000 L CNN
+F 2 "capacitors:C_0603" H 5700 2550 50  0001 C CNN
+F 3 "" H 5700 2700 50  0000 C CNN
+	1    5700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR084
+U 1 1 5EB7D166
+P 5700 2850
+F 0 "#PWR084" H 5700 2600 50  0001 C CNN
+F 1 "GND" H 5705 2677 50  0000 C CNN
+F 2 "" H 5700 2850 50  0000 C CNN
+F 3 "" H 5700 2850 50  0000 C CNN
+	1    5700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3100 5350 3100
+Wire Wire Line
+	5350 3050 5350 3100
+Connection ~ 5350 3100
+Wire Wire Line
+	5350 3100 5200 3100
+Wire Wire Line
+	5700 2800 5700 2850
+Wire Wire Line
+	5700 2500 5700 2550
+Wire Wire Line
+	5700 2550 5350 2550
+Wire Wire Line
+	5350 2550 5350 2700
+Connection ~ 5700 2550
+Wire Wire Line
+	5700 2550 5700 2600
+Wire Wire Line
+	5200 2700 5350 2700
+Connection ~ 5350 2700
+Wire Wire Line
+	5350 2700 5350 2850
+Wire Wire Line
+	5200 3300 5250 3300
+Wire Wire Line
+	5250 3300 5250 3350
+Wire Wire Line
+	4500 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3150
+Wire Wire Line
+	4400 3150 4000 3150
+Wire Wire Line
+	4000 3150 3200 3150
+Wire Wire Line
+	3200 3150 3200 2800
+Wire Wire Line
+	3200 2800 2500 2800
+Wire Wire Line
+	3200 3350 4000 3350
+Connection ~ 4000 3150
+Wire Wire Line
+	4000 3350 4400 3350
+Wire Wire Line
+	4400 3350 4400 3300
+Wire Wire Line
+	4400 3300 4500 3300
+Connection ~ 4000 3350
+Wire Wire Line
+	3200 3700 2500 3700
+Wire Wire Line
+	2500 2800 2500 3700
+Wire Wire Line
+	3200 3350 3200 3700
+Wire Wire Line
+	4000 2700 4500 2700
+Wire Wire Line
+	4000 2800 4500 2800
+Text GLabel 4000 2700 0    60   Input ~ 0
+I2C_SCL
+Text Label 4050 2700 0    60   ~ 0
+I2C_SCL
+Text GLabel 4000 2800 0    60   BiDi ~ 0
+I2C_SDA
+Text GLabel 6650 3100 2    60   Output ~ 0
+NFC_BUSY
+Text Label 4050 2800 0    60   ~ 0
+I2C_SDA
+Text Label 3450 3150 0    60   ~ 0
+ANTENNA
+Text Label 6050 3100 0    60   ~ 0
+NFC_BUSY
+$EndSCHEMATC

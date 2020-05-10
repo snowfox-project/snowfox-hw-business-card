@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "snowfox-hw-business-card"
-Date "2020-05-07"
+Date "2020-05-10"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MECH_mounting-holes:MHP_3.2_5.8 MECH3
+L MECH_mounting-holes:MHP_3.2_5.8 MECH1
 U 1 1 5E401602
 P 1000 7600
-F 0 "MECH3" H 1128 7646 50  0000 L CNN
+F 0 "MECH1" H 1128 7646 50  0000 L CNN
 F 1 "MHP_3.2_5.8" H 1128 7555 50  0000 L CNN
 F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 900 7650 50  0001 C CNN
 F 3 "" H 1000 7600 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 1000 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MECH_mounting-holes:MHP_3.2_5.8 MECH4
+L MECH_mounting-holes:MHP_3.2_5.8 MECH2
 U 1 1 5E401D77
 P 2000 7600
-F 0 "MECH4" H 2128 7646 50  0000 L CNN
+F 0 "MECH2" H 2128 7646 50  0000 L CNN
 F 1 "MHP_3.2_5.8" H 2128 7555 50  0000 L CNN
 F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 1900 7650 50  0001 C CNN
 F 3 "" H 2000 7600 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "" H 2000 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MECH_mounting-holes:MHP_3.2_5.8 MECH5
+L MECH_mounting-holes:MHP_3.2_5.8 MECH3
 U 1 1 5E402150
 P 3000 7600
-F 0 "MECH5" H 3128 7646 50  0000 L CNN
+F 0 "MECH3" H 3128 7646 50  0000 L CNN
 F 1 "MHP_3.2_5.8" H 3128 7555 50  0000 L CNN
 F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 2900 7650 50  0001 C CNN
 F 3 "" H 3000 7600 50  0001 C CNN
@@ -82,5 +82,11 @@ S 3000 3000 1000 500
 U 5EB369DF
 F0 "History" 43
 F1 "history.sch" 43
+$EndSheet
+$Sheet
+S 3000 2000 1000 500 
+U 5EB7BA95
+F0 "NFC" 43
+F1 "nfc.sch" 43
 $EndSheet
 $EndSCHEMATC

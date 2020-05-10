@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
-Title "snowfox-hw-business-card"
-Date "2020-05-07"
+Sheet 6 7
+Title "history"
+Date "2020-05-10"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
