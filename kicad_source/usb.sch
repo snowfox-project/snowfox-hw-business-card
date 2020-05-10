@@ -19,8 +19,8 @@ U 1 1 5CB4789B
 P 2300 2050
 AR Path="/5CB4789B" Ref="P?"  Part="1" 
 AR Path="/5CB34EF4/5CB4789B" Ref="P1"  Part="1" 
-AR Path="/5EB35E34/5CB4789B" Ref="P1"  Part="1" 
-F 0 "P1" V 1875 1974 50  0000 C CNN
+AR Path="/5EB35E34/5CB4789B" Ref="CN1"  Part="1" 
+F 0 "CN1" V 1875 1974 50  0000 C CNN
 F 1 "USB_OTG" V 1966 1974 50  0000 C CNN
 F 2 "CON_wuerth:WE_629105136821" V 2250 1950 50  0001 C CNN
 F 3 "" V 2250 1950 50  0000 C CNN
@@ -671,4 +671,10 @@ Text GLabel 10550 4050 2    60   Output ~ 0
 BOOT
 NoConn ~ 5000 2150
 NoConn ~ 5000 2250
+Text Notes 9850 4900 0    43   ~ 0
+BOOT is not needed???
+Text Notes 5250 1450 0    43   ~ 0
+possibility to change to smaller controller without charging function
+Text Notes 1850 1550 0    43   ~ 0
+is now USB micro\nchange to USB type C
 $EndSCHEMATC
