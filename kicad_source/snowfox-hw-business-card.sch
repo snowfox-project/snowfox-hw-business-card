@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 7
 Title "snowfox-hw-business-card"
-Date "2020-05-10"
+Date "2020-05-13"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""

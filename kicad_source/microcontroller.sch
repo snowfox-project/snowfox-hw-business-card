@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Risc V FE310 microcontroller"
-Date "2020-05-10"
+Date "2020-05-13"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -961,7 +961,7 @@ L devices:Crystal_SMD_4Pad Y1
 U 1 1 5EC68E7E
 P 2350 2800
 F 0 "Y1" H 2350 3020 50  0000 C CNN
-F 1 "Crystal_SMD_4Pad" H 2350 2929 50  0000 C CNN
+F 1 "16MHz" H 2350 2929 50  0000 C CNN
 F 2 "crystals:Crystal_SMD_0603_4Pads" H 2350 2600 50  0001 C CNN
 F 3 "" H 2350 2800 50  0000 C CNN
 	1    2350 2800
@@ -1444,12 +1444,11 @@ U 1 1 5ED18506
 P 5600 5600
 F 0 "CN2" H 5600 6015 50  0000 C CNN
 F 1 "CONN_02X05" H 5600 5924 50  0000 C CNN
-F 2 "pin_headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 5600 4400 50  0000 C CNN
+F 2 "pin_headers:Pin_Header_Straight_2x05_Pitch1.27mm" H 5600 5600 50  0001 C CNN
 F 3 "" H 5600 4400 50  0000 C CNN
 	1    5600 5600
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5350 5400
 NoConn ~ 5350 5700
 NoConn ~ 5350 5800
 $Comp
@@ -1500,4 +1499,19 @@ Wire Wire Line
 	6700 4300 6100 4300
 Text Label 6200 4300 0    60   ~ 0
 NFC_BUSY
+$Comp
+L power-supply:+3V3 #PWR0101
+U 1 1 5EBC2B18
+P 5250 5350
+F 0 "#PWR0101" H 5250 5200 50  0001 C CNN
+F 1 "+3V3" V 5265 5478 50  0000 L CNN
+F 2 "" H 5250 5350 50  0000 C CNN
+F 3 "" H 5250 5350 50  0000 C CNN
+	1    5250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5400 5250 5400
+Wire Wire Line
+	5250 5400 5250 5350
 $EndSCHEMATC
