@@ -596,4 +596,8 @@ Wire Wire Line
 	7800 3700 8600 3700
 Text GLabel 7800 3400 0    60   Input ~ 0
 DIS_D_C#
+Text Notes 6300 5700 0    60   ~ 0
+use display Waveshare 2.9inch e-Paper Module (B)\nhttps://www.waveshare.com/wiki/2.9inch_e-Paper_Module_(B)\nhttps://www.waveshare.com/w/upload/b/bb/2.9inch-e-paper-b-specification.pdf
+Text Notes 3600 3500 0    60   ~ 0
+68 uH 50 mA
 $EndSCHEMATC
