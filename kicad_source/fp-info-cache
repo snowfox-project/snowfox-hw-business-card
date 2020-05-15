@@ -1,204 +1,64 @@
-45574084844672
-connectors_JST_SH
-Connectors_JST_BM02B-SRSS-TB
-JST SH series connector, BM02B-SRSS-TB
-connector jst sh
-0
-4
-2
-connectors_JST_SH
-Connectors_JST_BM03B-SRSS-TB
-JST SH series connector, BM03B-SRSS-TB
-connector jst sh
-0
-5
-3
-connectors_JST_SH
-Connectors_JST_BM04B-SRSS-TB
-JST SH series connector, BM04B-SRSS-TB
-connector jst sh
-0
-6
-4
-connectors_JST_SH
-Connectors_JST_BM05B-SRSS-TB
-JST SH series connector, BM05B-SRSS-TB
-connector jst sh
-0
-7
-5
-connectors_JST_SH
-Connectors_JST_BM06B-SRSS-TB
-JST SH series connector, BM06B-SRSS-TB
-connector jst sh
-0
-8
-6
-connectors_JST_SH
-Connectors_JST_BM07B-SRSS-TB
-JST SH series connector, BM07B-SRSS-TB
-connector jst sh
-0
-9
-7
-connectors_JST_SH
-Connectors_JST_BM08B-SRSS-TB
-JST SH series connector, BM08B-SRSS-TB
-connector jst sh
-0
-10
-8
-connectors_JST_SH
-Connectors_JST_BM09B-SRSS-TB
-JST SH series connector, BM09B-SRSS-TB
-connector jst sh
-0
-11
-9
-connectors_JST_SH
-Connectors_JST_BM10B-SRSS-TB
-JST SH series connector, BM10B-SRSS-TB
-connector jst sh
-0
-12
-10
-connectors_JST_SH
-Connectors_JST_BM11B-SRSS-TB
-JST SH series connector, BM11B-SRSS-TB
-connector jst sh
-0
-13
-11
-connectors_JST_SH
-Connectors_JST_BM12B-SRSS-TB
-JST SH series connector, BM12B-SRSS-TB
-connector jst sh
+14188395388901
+IC_sensor
+AMG88xx
+
+
 0
 14
-12
-connectors_JST_SH
-Connectors_JST_BM13B-SRSS-TB
-JST SH series connector, BM13B-SRSS-TB
-connector jst sh
-0
-15
-13
-connectors_JST_SH
-Connectors_JST_BM14B-SRSS-TB
-JST SH series connector, BM14B-SRSS-TB
-connector jst sh
-0
-16
 14
-connectors_JST_SH
-Connectors_JST_BM15B-SRSS-TB
-JST SH series connector, BM15B-SRSS-TB
-connector jst sh
+IC_sensor
+BMA400
+Bosch BMA400
+Bosch BMA400
 0
-17
-15
-connectors_JST_SH
-Connectors_JST_SM02B-SRSS-TB
-JST SH series connector, SM02B-SRSS-TB
-connector jst sh
-0
-4
-2
-connectors_JST_SH
-Connectors_JST_SM03B-SRSS-TB
-JST SH series connector, SM03B-SRSS-TB
-connector jst sh
-0
-5
-3
-connectors_JST_SH
-Connectors_JST_SM04B-SRSS-TB
-JST SH series connector, SM04B-SRSS-TB
-connector jst sh
-0
-6
-4
-connectors_JST_SH
-Connectors_JST_SM05B-SRSS-TB
-JST SH series connector, SM05B-SRSS-TB
-connector jst sh
-0
-7
-5
-connectors_JST_SH
-Connectors_JST_SM06B-SRSS-TB
-JST SH series connector, SM06B-SRSS-TB
-connector jst sh
+12
+12
+IC_sensor
+BME680
+
+
 0
 8
-6
-connectors_JST_SH
-Connectors_JST_SM07B-SRSS-TB
-JST SH series connector, SM07B-SRSS-TB
-connector jst sh
-0
-9
-7
-connectors_JST_SH
-Connectors_JST_SM08B-SRSS-TB
-JST SH series connector, SM08B-SRSS-TB
-connector jst sh
-0
-10
 8
-connectors_JST_SH
-Connectors_JST_SM09B-SRSS-TB
-JST SH series connector, SM09B-SRSS-TB
-connector jst sh
+IC_sensor
+DFN-10
+
+
 0
-11
-9
-connectors_JST_SH
-Connectors_JST_SM10B-SRSS-TB
-JST SH series connector, SM10B-SRSS-TB
-connector jst sh
-0
-12
 10
-connectors_JST_SH
-Connectors_JST_SM11B-SRSS-TB
-JST SH series connector, SM11B-SRSS-TB
-connector jst sh
+10
+IC_sensor
+HLGA-6L
+
+
+0
+6
+6
+IC_sensor
+HLGA-10L
+
+
+0
+10
+10
+IC_sensor
+TCRT1000
+Reflective Optical Sensor with Transistor Output
+Reflective Optical Sensor with Transistor Output
+0
+4
+4
+IC_sensor
+VL53L0X
+Time-of-Flight (ToF) ranging sensor 
+Time-of-Flight (ToF) ranging sensor 
 0
 13
-11
-connectors_JST_SH
-Connectors_JST_SM12B-SRSS-TB
-JST SH series connector, SM12B-SRSS-TB
-connector jst sh
-0
-14
 12
-connectors_JST_SH
-Connectors_JST_SM13B-SRSS-TB
-JST SH series connector, SM13B-SRSS-TB
-connector jst sh
+IC_sensor
+VL53L0X_breakout
+VL53L0X_breakout
+VL53L0X_breakout
 0
-15
-13
-connectors_JST_SH
-Connectors_JST_SM14B-SRSS-TB
-JST SH series connector, SM14B-SRSS-TB
-connector jst sh
-0
-16
-14
-connectors_JST_SH
-Connectors_JST_SM15B-SRSS-TB
-JST SH series connector, SM15B-SRSS-TB
-connector jst sh
-0
-17
-15
-connectors_JST_SH
-Connectors_JST_SM20B-SRSS-TB
-JST SH series connector, SM20B-SRSS-TB
-connector jst sh
-0
-22
-20
+5
+5
