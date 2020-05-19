@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/snowfox-hw-business-card/kicad_source/snowfox-hw-business-card.sch)
-    (date "Do 14 Mai 2020 23:59:42 CEST")
+    (date "Di 19 Mai 2020 23:08:33 CEST")
     (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -347,7 +347,7 @@
       (tstamp 5ED00B2D))
     (comp (ref CN2)
       (value CONN_02X05)
-      (footprint pin_headers:Pin_Header_Straight_2x05_Pitch1.27mm)
+      (footprint CON_samtec:FSH-105-04-L-DH-SL)
       (libsource (lib mechanical-connectors) (part CONN_02X05) (description "Connector 02x05"))
       (sheetpath (names /Microcontroller/) (tstamps /5EB3587A/))
       (tstamp 5ED18506))
