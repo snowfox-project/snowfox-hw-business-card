@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/snowfox-hw-business-card/kicad_source/snowfox-hw-business-card.sch)
-    (date "Di 02 Jun 2020 01:40:49 CEST")
+    (date "Di 02 Jun 2020 23:00:13 CEST")
     (tool "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -281,7 +281,7 @@
       (tstamp 5EBE4535))
     (comp (ref Y1)
       (value 16MHz)
-      (footprint crystals:Crystal_SMD_0603_4Pads)
+      (footprint crystals:Crystal_SMD_3.2x2.5mm_4Pad)
       (libsource (lib devices) (part Crystal_SMD_4Pad) (description "Quarz, Crystal SMD 4 Pads"))
       (sheetpath (names /Microcontroller/) (tstamps /5EB3587A/))
       (tstamp 5EC68E7E))
