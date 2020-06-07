@@ -13,7 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 1700 7600
 NoConn ~ 700  7600
 Text Notes 700  7400 0    50   ~ 0
 mounting holes
@@ -55,17 +54,6 @@ U 5EB7BA95
 F0 "NFC" 43
 F1 "nfc.sch" 43
 $EndSheet
-$Comp
-L MECH_mounting-holes:MHP_3.2_5.8 MECH2
-U 1 1 5ED84539
-P 2000 7600
-F 0 "MECH2" H 2128 7646 50  0000 L CNN
-F 1 "MHP_3.2_5.8" H 2128 7555 50  0000 L CNN
-F 2 "MECH_mounting_holes:MHP_3.2_5.8" H 1900 7650 50  0001 C CNN
-F 3 "" H 2000 7600 50  0001 C CNN
-	1    2000 7600
-	1    0    0    -1  
-$EndComp
 $Comp
 L MECH_mounting-holes:MHNP_2.1_4.0 MECH1
 U 1 1 5ED847C4
