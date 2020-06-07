@@ -309,7 +309,7 @@ U 1 1 5EC574C4
 P 4000 3350
 F 0 "L1" H 4000 3565 50  0000 C CNN
 F 1 "INDUCTOR_SMALL" H 4000 3474 50  0000 C CNN
-F 2 "inductors:Inductor_1212" H 4000 3350 50  0001 C CNN
+F 2 "resistors:R_1210" H 4000 3350 50  0001 C CNN
 F 3 "" H 4000 3350 50  0000 C CNN
 	1    4000 3350
 	1    0    0    -1  
@@ -319,8 +319,8 @@ L devices:D_Small D4
 U 1 1 5EC57B54
 P 4850 3350
 F 0 "D4" H 4850 3145 50  0000 C CNN
-F 1 "MBR0530" H 4850 3236 50  0000 C CNN
-F 2 "diodes:SOD-123" V 4850 3350 50  0001 C CNN
+F 1 "B0530WS" H 4850 3236 50  0000 C CNN
+F 2 "diodes:SOD-323" V 4850 3350 50  0001 C CNN
 F 3 "" V 4850 3350 50  0000 C CNN
 	1    4850 3350
 	-1   0    0    1   
@@ -407,8 +407,8 @@ L devices:D_Small D3
 U 1 1 5EC5D0DA
 P 4850 2600
 F 0 "D3" H 4850 2395 50  0000 C CNN
-F 1 "MBR0530" H 4850 2486 50  0000 C CNN
-F 2 "diodes:SOD-123" V 4850 2600 50  0001 C CNN
+F 1 "B0530WS" H 4850 2486 50  0000 C CNN
+F 2 "diodes:SOD-323" V 4850 2600 50  0001 C CNN
 F 3 "" V 4850 2600 50  0000 C CNN
 	1    4850 2600
 	-1   0    0    1   
@@ -418,8 +418,8 @@ L devices:D_Small D2
 U 1 1 5EC5D3FB
 P 3900 2600
 F 0 "D2" H 3900 2395 50  0000 C CNN
-F 1 "MBR0530" H 3900 2486 50  0000 C CNN
-F 2 "diodes:SOD-123" V 3900 2600 50  0001 C CNN
+F 1 "B0530WS" H 3900 2486 50  0000 C CNN
+F 2 "diodes:SOD-323" V 3900 2600 50  0001 C CNN
 F 3 "" V 3900 2600 50  0000 C CNN
 	1    3900 2600
 	-1   0    0    1   
@@ -598,6 +598,6 @@ Text GLabel 7800 3400 0    60   Input ~ 0
 DIS_D_C#
 Text Notes 6300 5700 0    60   ~ 0
 use display Waveshare 2.9inch e-Paper Module (B)\nhttps://www.waveshare.com/wiki/2.9inch_e-Paper_Module_(B)\nhttps://www.waveshare.com/w/upload/b/bb/2.9inch-e-paper-b-specification.pdf
-Text Notes 3600 3500 0    60   ~ 0
-68 uH 50 mA
+Text Notes 3650 3600 0    60   ~ 0
+68 uH 50 mA\n744764168
 $EndSCHEMATC
