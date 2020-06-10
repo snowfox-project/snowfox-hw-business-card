@@ -889,36 +889,11 @@ Wire Wire Line
 	9400 1350 9400 1400
 Wire Wire Line
 	9400 1900 9400 1950
-$Comp
-L mechanical-switches:TAST_VER SW3
-U 1 1 5EBE4535
-P 9800 1950
-F 0 "SW3" H 9800 2287 60  0000 C CNN
-F 1 "TAST_VER" H 9800 2181 60  0000 C CNN
-F 2 "mechanical-switches:WE_430182050816" H 10650 2000 60  0001 C CNN
-F 3 "" H 10650 2000 60  0000 C CNN
-	1    9800 1950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9400 1600 9400 1650
 Connection ~ 9400 1650
 Wire Wire Line
 	9400 1650 9400 1700
-Wire Wire Line
-	9700 1650 9400 1650
-Wire Wire Line
-	9800 1650 9700 1650
-Connection ~ 9700 1650
-Wire Wire Line
-	9700 2250 9700 2300
-Wire Wire Line
-	9700 2300 9800 2300
-Wire Wire Line
-	9800 2300 9800 2250
-Connection ~ 9700 2300
-Wire Wire Line
-	9700 2300 9700 2350
 $Comp
 L power-supply:GND #PWR033
 U 1 1 5EBE454E
@@ -1782,4 +1757,19 @@ BUTTON_B
 Text Label 9800 4950 0    60   ~ 0
 BUTTON_A
 NoConn ~ 10450 4850
+Wire Wire Line
+	9400 1650 9700 1650
+$Comp
+L devices:SW_PUSH SW3
+U 1 1 5EE13CDC
+P 9700 1950
+F 0 "SW3" V 9654 2068 50  0000 L CNN
+F 1 "SW_PUSH" V 9745 2068 50  0000 L CNN
+F 2 "mechanical-switches:smd_push" V 9791 2068 50  0001 L CNN
+F 3 "" H 9700 1950 50  0000 C CNN
+	1    9700 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 2250 9700 2350
 $EndSCHEMATC
