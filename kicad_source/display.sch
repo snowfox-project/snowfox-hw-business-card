@@ -291,8 +291,8 @@ L devices:Q_NMOS_GSD Q1
 U 1 1 5EC54BFE
 P 4250 3750
 F 0 "Q1" H 4440 3796 50  0000 L CNN
-F 1 "SI1304BDL" H 4440 3705 50  0000 L CNN
-F 2 "SOT_TO:SOT-23" H 4450 3850 50  0001 C CNN
+F 1 "SI1308EDL" H 4440 3705 50  0000 L CNN
+F 2 "SOT_TO:SOT-323" H 4450 3850 50  0001 C CNN
 F 3 "" H 4250 3750 50  0000 C CNN
 	1    4250 3750
 	1    0    0    -1  
@@ -308,7 +308,7 @@ L devices:INDUCTOR_SMALL L1
 U 1 1 5EC574C4
 P 4000 3350
 F 0 "L1" H 4000 3565 50  0000 C CNN
-F 1 "INDUCTOR_SMALL" H 4000 3474 50  0000 C CNN
+F 1 "744764147" H 4000 3474 50  0000 C CNN
 F 2 "resistors:R_1210" H 4000 3350 50  0001 C CNN
 F 3 "" H 4000 3350 50  0000 C CNN
 	1    4000 3350
@@ -598,6 +598,6 @@ Text GLabel 7800 3400 0    60   Input ~ 0
 DIS_D_C#
 Text Notes 6300 5700 0    60   ~ 0
 use display Waveshare 2.9inch e-Paper Module (B)\nhttps://www.waveshare.com/wiki/2.9inch_e-Paper_Module_(B)\nhttps://www.waveshare.com/w/upload/b/bb/2.9inch-e-paper-b-specification.pdf
-Text Notes 3650 3600 0    60   ~ 0
-68 uH 50 mA\n744764168
+Text Notes 3550 3600 0    60   ~ 0
+47/68 uH 50 mA\n744764168
 $EndSCHEMATC
