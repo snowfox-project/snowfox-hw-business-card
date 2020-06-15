@@ -1646,7 +1646,6 @@ Wire Wire Line
 Connection ~ 2300 1150
 Wire Wire Line
 	2300 1150 2300 1050
-NoConn ~ 1250 1450
 NoConn ~ 1250 1550
 $Comp
 L power-supply:GND #PWR092
@@ -1841,4 +1840,31 @@ Wire Wire Line
 	2150 1350 2150 1000
 Wire Wire Line
 	2150 800  2150 750 
+$Comp
+L devices:R_1206 R30
+U 1 1 5EE92263
+P 750 1800
+F 0 "R30" H 780 1820 50  0000 L CNN
+F 1 "0R" H 780 1760 50  0000 L CNN
+F 2 "resistors:R_0603" H 750 1650 50  0001 C CNN
+F 3 "" H 750 1800 50  0000 C CNN
+	1    750  1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1250 1450 1200 1450
+Wire Wire Line
+	1200 1450 1200 1600
+Wire Wire Line
+	1200 1600 750  1600
+Wire Wire Line
+	750  1600 750  1700
+Wire Wire Line
+	1450 1950 750  1950
+Wire Wire Line
+	750  1950 750  1900
+Text Label 750  1600 0    60   ~ 0
+BMA_INT
+Text Label 950  1950 0    60   ~ 0
+WAKE
 $EndSCHEMATC
