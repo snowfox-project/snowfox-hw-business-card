@@ -1057,11 +1057,10 @@ Text Label 6200 2700 0    60   ~ 0
 JTAG_TMS
 Text Label 6200 2800 0    60   ~ 0
 JTAG_TDI
-Text Notes 4300 2750 2    43   ~ 0
+Text Notes 3850 2750 2    43   ~ 0
 should work using the \ninternal 32 kHz clock, \nbut connect device
 Text Notes 7600 1900 2    43   ~ 0
 PMU_OUT_1 is not needed?
-NoConn ~ 6100 2000
 Wire Wire Line
 	2700 2500 2700 2800
 Wire Wire Line
@@ -1728,17 +1727,6 @@ Wire Wire Line
 	3950 4200 4600 4200
 Text Label 4050 4200 0    60   ~ 0
 GPIO_1
-$Comp
-L mechanical-connectors:CONN_01X14 CN5
-U 1 1 5EE75FCC
-P 10650 5500
-F 0 "CN5" H 10728 5541 50  0000 L CNN
-F 1 "CONN_01X14" H 10728 5450 50  0000 L CNN
-F 2 "CON_samtec:SIB-114-02-F-S_MATING" H 10650 5500 50  0001 C CNN
-F 3 "" H 10650 5500 50  0000 C CNN
-	1    10650 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9750 5150 10450 5150
 Wire Wire Line
@@ -1751,7 +1739,6 @@ Text Label 9800 5050 0    60   ~ 0
 BUTTON_B
 Text Label 9800 4950 0    60   ~ 0
 BUTTON_A
-NoConn ~ 10450 4850
 Wire Wire Line
 	9400 1650 9700 1650
 $Comp
@@ -1867,4 +1854,50 @@ Text Label 750  1600 0    60   ~ 0
 BMA_INT
 Text Label 950  1950 0    60   ~ 0
 WAKE
+$Comp
+L mechanical-connectors:TEST_1P W1
+U 1 1 5EEC013D
+P 4100 2700
+F 0 "W1" V 4295 2772 50  0000 C CNN
+F 1 "TEST_1P" V 4204 2772 50  0000 C CNN
+F 2 "wire_pads:SolderWirePad_single_1mmSMD" H 4300 2700 50  0001 C CNN
+F 3 "" H 4300 2700 50  0000 C CNN
+	1    4100 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mechanical-connectors:TEST_1P W2
+U 1 1 5EED793A
+P 6750 2000
+F 0 "W2" V 6704 2188 50  0000 L CNN
+F 1 "TEST_1P" V 6795 2188 50  0000 L CNN
+F 2 "wire_pads:SolderWirePad_single_1mmSMD" H 6950 2000 50  0001 C CNN
+F 3 "" H 6950 2000 50  0000 C CNN
+	1    6750 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2000 6100 2000
+Text Label 6200 2000 0    60   ~ 0
+PMU_OUT_1
+Wire Wire Line
+	4100 2700 4600 2700
+Text Label 4500 2700 2    43   ~ 0
+CLK_32K
+$Comp
+L mechanical-connectors:CONN_01X14 CN5
+U 1 1 5EE75FCC
+P 10650 5500
+F 0 "CN5" H 10728 5541 50  0000 L CNN
+F 1 "CONN_01X14" H 10728 5450 50  0000 L CNN
+F 2 "CON_samtec:SIB-114-02-F-S_MATING" H 10650 5500 50  0001 C CNN
+F 3 "" H 10650 5500 50  0000 C CNN
+	1    10650 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 4850 10350 4850
+Wire Wire Line
+	10350 4850 10350 6150
+Connection ~ 10350 6150
 $EndSCHEMATC
