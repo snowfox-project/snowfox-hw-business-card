@@ -364,52 +364,52 @@ Wire Wire Line
 Wire Wire Line
 	8200 3100 8200 3150
 Wire Wire Line
-	7000 2350 6450 2350
-Wire Wire Line
 	7000 2450 6450 2450
-Text Label 6550 2350 0    60   ~ 0
-TX_R
+Wire Wire Line
+	7000 2350 6450 2350
 Text Label 6550 2450 0    60   ~ 0
+TX_R
+Text Label 6550 2350 0    60   ~ 0
 RX_R
 $Comp
 L devices:R_1206 R?
 U 1 1 5CB4799A
-P 7100 2350
+P 7100 2450
 AR Path="/5CB4799A" Ref="R?"  Part="1" 
 AR Path="/5CB34EF4/5CB4799A" Ref="R?"  Part="1" 
 AR Path="/5EB35E34/5CB4799A" Ref="R22"  Part="1" 
-F 0 "R22" V 7150 2450 50  0000 L CNN
-F 1 "100R" V 7050 2050 50  0000 L CNN
-F 2 "resistors:R_0603" H 7100 2200 50  0001 C CNN
-F 3 "" H 7100 2350 50  0000 C CNN
-	1    7100 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L devices:R_1206 R?
-U 1 1 5CB479A1
-P 7100 2450
-AR Path="/5CB479A1" Ref="R?"  Part="1" 
-AR Path="/5CB34EF4/5CB479A1" Ref="R?"  Part="1" 
-AR Path="/5EB35E34/5CB479A1" Ref="R23"  Part="1" 
-F 0 "R23" V 7150 2550 50  0000 L CNN
+F 0 "R22" V 7150 2550 50  0000 L CNN
 F 1 "100R" V 7050 2150 50  0000 L CNN
 F 2 "resistors:R_0603" H 7100 2300 50  0001 C CNN
 F 3 "" H 7100 2450 50  0000 C CNN
 	1    7100 2450
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7650 2450 7200 2450
+$Comp
+L devices:R_1206 R?
+U 1 1 5CB479A1
+P 7100 2350
+AR Path="/5CB479A1" Ref="R?"  Part="1" 
+AR Path="/5CB34EF4/5CB479A1" Ref="R?"  Part="1" 
+AR Path="/5EB35E34/5CB479A1" Ref="R23"  Part="1" 
+F 0 "R23" V 7150 2450 50  0000 L CNN
+F 1 "100R" V 7050 2050 50  0000 L CNN
+F 2 "resistors:R_0603" H 7100 2200 50  0001 C CNN
+F 3 "" H 7100 2350 50  0000 C CNN
+	1    7100 2350
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	7650 2350 7200 2350
-Text Label 7500 2350 0    60   ~ 0
-TX
+Wire Wire Line
+	7650 2450 7200 2450
 Text Label 7500 2450 0    60   ~ 0
+TX
+Text Label 7500 2350 0    60   ~ 0
 RX
-Text GLabel 7650 2450 2    60   Output ~ 0
+Text GLabel 7650 2350 2    60   Output ~ 0
 RX
-Text GLabel 7650 2350 2    60   Input ~ 0
+Text GLabel 7650 2450 2    60   Input ~ 0
 TX
 $Comp
 L devices:Q_NPN_BEC Q2
