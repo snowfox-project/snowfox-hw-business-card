@@ -444,7 +444,7 @@ Text Label 8400 4400 0    60   ~ 0
 RESET
 Wire Wire Line
 	7500 4700 8000 4700
-Text Label 6950 4700 0    60   ~ 0
+Text Label 7650 5200 0    60   ~ 0
 RTS
 Text Label 7650 4700 0    60   ~ 0
 RTS_R
@@ -604,24 +604,6 @@ NoConn ~ 6450 2650
 NoConn ~ 6450 3050
 NoConn ~ 6450 3350
 Wire Wire Line
-	6800 4700 7300 4700
-$Comp
-L power-supply:GND #PWR?
-U 1 1 5EC2403C
-P 8300 4950
-AR Path="/5EC2403C" Ref="#PWR?"  Part="1" 
-AR Path="/5CB34EF4/5EC2403C" Ref="#PWR?"  Part="1" 
-AR Path="/5EB35E34/5EC2403C" Ref="#PWR086"  Part="1" 
-F 0 "#PWR086" H 8300 4700 50  0001 C CNN
-F 1 "GND" H 8300 4800 50  0000 C CNN
-F 2 "" H 8300 4950 50  0000 C CNN
-F 3 "" H 8300 4950 50  0000 C CNN
-	1    8300 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8300 4900 8300 4950
-Wire Wire Line
 	9100 3250 9100 3100
 Wire Wire Line
 	6450 3250 9100 3250
@@ -629,4 +611,28 @@ Wire Wire Line
 	9100 2850 9100 2900
 Wire Wire Line
 	8200 2850 8200 2900
+Text Notes 5700 2000 0    43   ~ 0
+use SSOP package
+Wire Wire Line
+	7300 5200 8300 5200
+Wire Wire Line
+	8300 4900 8300 5200
+$Comp
+L power-supply:VIO #PWR?
+U 1 1 5EFEC333
+P 7050 4600
+AR Path="/5EFEC333" Ref="#PWR?"  Part="1" 
+AR Path="/5CB34EF4/5EFEC333" Ref="#PWR?"  Part="1" 
+AR Path="/5EB35E34/5EFEC333" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 7050 4450 50  0001 C CNN
+F 1 "VIO" H 7067 4773 50  0000 C CNN
+F 2 "" H 7050 4600 50  0000 C CNN
+F 3 "" H 7050 4600 50  0000 C CNN
+	1    7050 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 4600 7050 4700
+Wire Wire Line
+	7050 4700 7300 4700
 $EndSCHEMATC
