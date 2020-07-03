@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Risc V FE310 microcontroller"
-Date "2020-05-13"
+Date "2020-07-03"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -1192,8 +1192,6 @@ Text GLabel 3950 4600 0    60   Output ~ 0
 SPI_CLK
 Text GLabel 3950 4400 0    60   Output ~ 0
 SPI_MOSI
-Text GLabel 3950 4500 0    60   Input ~ 0
-SPI_MISO
 Text GLabel 6750 3300 2    60   Output ~ 0
 SPI_CS_DIS
 Wire Wire Line

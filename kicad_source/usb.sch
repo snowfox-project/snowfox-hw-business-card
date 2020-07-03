@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "USB"
-Date "2020-05-13"
+Date "2020-07-03"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""

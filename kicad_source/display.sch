@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "e-paper display"
-Date "2020-05-13"
+Date "2020-07-03"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -13,19 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L mechanical-connectors:CONN_01X24 CN3
-U 1 1 5EC3DC2E
-P 8800 3550
-F 0 "CN3" H 8878 3591 50  0000 L CNN
-F 1 "SFV24R-3STBE1HLF" H 8878 3500 50  0000 L CNN
-F 2 "CON_wuerth:WR-FPC_68712414522" H 8800 3550 50  0001 C CNN
-F 3 "" H 8800 3550 50  0000 C CNN
-	1    8800 3550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8600 2400
-NoConn ~ 8600 2700
 Wire Wire Line
 	8150 2500 8600 2500
 Wire Wire Line
@@ -487,7 +475,7 @@ Text Label 4650 4000 0    60   ~ 0
 RESE
 NoConn ~ 8150 2900
 NoConn ~ 8150 3000
-Text Notes 6800 2750 0    60   ~ 0
+Text Notes 8900 3000 0    60   ~ 0
 temperature sensor not used
 $Comp
 L devices:R_0603 R17
@@ -596,8 +584,59 @@ Wire Wire Line
 	7800 3700 8600 3700
 Text GLabel 7800 3400 0    60   Input ~ 0
 DIS_D_C#
-Text Notes 6300 5700 0    60   ~ 0
+Text Notes 6050 5850 0    60   ~ 0
 use display Waveshare 2.9inch e-Paper Module (B)\nhttps://www.waveshare.com/wiki/2.9inch_e-Paper_Module_(B)\nhttps://www.waveshare.com/w/upload/b/bb/2.9inch-e-paper-b-specification.pdf
 Text Notes 3550 3600 0    60   ~ 0
 47/68 uH 50 mA\n744764168
+Text Notes 6050 6200 0    60   ~ 0
+should also be compatible with display USE0290-BWNL-01 - Electronic Paper display from Unisystem Co.\nhttps://www.unisystem-displays.com/en/products/epd/use0290-bwnl-01.html
+Text Notes 8900 2750 0    60   ~ 0
+VGL
+Text Notes 8900 2850 0    60   ~ 0
+VGH
+Text Notes 8900 4450 0    60   ~ 0
+PREVGH
+Text Notes 8900 4650 0    60   ~ 0
+PREVGL
+$Comp
+L devices:C_0603 C45
+U 1 1 5EFFDBE8
+P 6500 2900
+F 0 "C45" H 6592 2946 50  0000 L CNN
+F 1 "1uF 50V" H 6592 2855 50  0000 L CNN
+F 2 "capacitors:C_0603" H 6500 2750 50  0001 C CNN
+F 3 "" H 6500 2900 50  0000 C CNN
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR086
+U 1 1 5EFFDE70
+P 6500 3050
+F 0 "#PWR086" H 6500 2800 50  0001 C CNN
+F 1 "GND" H 6505 2877 50  0000 C CNN
+F 2 "" H 6500 3050 50  0000 C CNN
+F 3 "" H 6500 3050 50  0000 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L mechanical-connectors:CONN_01X24 CN3
+U 1 1 5EC3DC2E
+P 8800 3550
+F 0 "CN3" H 8878 3591 50  0000 L CNN
+F 1 "SFV24R-3STBE1HLF" H 8878 3500 50  0000 L CNN
+F 2 "CON_wuerth:WR-FPC_68712414522" H 8800 3550 50  0001 C CNN
+F 3 "" H 8800 3550 50  0000 C CNN
+	1    8800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 2800
+Wire Wire Line
+	6500 3000 6500 3050
+Text Label 8250 2700 0    60   ~ 0
+VGL2
 $EndSCHEMATC

@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "NFC eeprom"
-Date "2020-05-13"
+Date "2020-07-03"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""

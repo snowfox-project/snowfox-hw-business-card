@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 7 7
 Title "history"
-Date "2020-05-13"
+Date "2020-07-03"
 Rev "dev_0.1"
 Comp "generationmake"
 Comment1 ""
@@ -24,7 +24,7 @@ description
 Text Notes 800  1000 0    60   ~ 0
 1.0
 Text Notes 1700 1000 0    60   ~ 0
-2020-05-xx
+2020-07-03
 Text Notes 2550 1000 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3500 1000 0    60   ~ 0
