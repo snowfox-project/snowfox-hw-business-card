@@ -42,4 +42,11 @@
 | gpio_22 | BUTTON_B | input | button right |
 | gpio_23 | EXT_RX | input | serial rx to expansion connector |
 
+### i2c addresses
+
+| address | device | comment |
+|-----|----------|--------------|
+| 0x18 | BMA253 | accelerometer |
+| 0x53 | M24LR | nfc eeprom |
+| 0x60 | ATECC608A | crypto device |
 

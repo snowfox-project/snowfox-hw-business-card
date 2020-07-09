@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 7
 Title "Risc V FE310 microcontroller"
-Date "2020-07-03"
-Rev "dev_0.1"
+Date "2020-07-10"
+Rev "0.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -1898,4 +1898,8 @@ Wire Wire Line
 Wire Wire Line
 	10350 4850 10350 6150
 Connection ~ 10350 6150
+Text Notes 1500 750  2    43   ~ 0
+i2c-address: 0x18
+Text Notes 2200 5500 2    43   ~ 0
+i2c-address: 0x18
 $EndSCHEMATC

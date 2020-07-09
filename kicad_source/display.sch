@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
 Title "e-paper display"
-Date "2020-07-03"
-Rev "dev_0.1"
+Date "2020-07-10"
+Rev "0.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""

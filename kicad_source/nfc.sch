@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 7
 Title "NFC eeprom"
-Date "2020-07-03"
-Rev "dev_0.1"
+Date "2020-07-10"
+Rev "0.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -164,4 +164,6 @@ Text Label 3450 3150 0    60   ~ 0
 ANTENNA
 Text Label 6050 3100 0    60   ~ 0
 NFC_BUSY
+Text Notes 5050 3550 2    43   ~ 0
+i2c-address: 0x53
 $EndSCHEMATC
