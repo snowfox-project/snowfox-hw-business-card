@@ -47,6 +47,8 @@
 | address | device | comment |
 |-----|----------|--------------|
 | 0x18 | BMA253 | accelerometer |
-| 0x53 | M24LR | nfc eeprom |
+| 0x53 | M24LR | NFC eeprom - memory area |
+| 0x57 | M24LR | NFC eeprom - security and data area |
 | 0x60 | ATECC608A | crypto device |
 
+The M24LR blocks two I2C adresses.
