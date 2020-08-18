@@ -1,0 +1,3 @@
+[submodule "firmware/snowfox"]
+	path = firmware/snowfox
+	url = https://github.com/snowfox-project/snowfox
